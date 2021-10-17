@@ -1,0 +1,18 @@
+#开发环境
+#spring.data.neo4j.uri=bolt://localhost
+#spring.data.neo4j.username=neo4j
+#spring.data.neo4j.password=blackarrow1
+#部署环境
+spring:
+  data:
+    neo4j:
+      uri: bolt://localhost:7687
+#      uri: http://localhost:7474
+      username: neo4j
+      password: 113866
+  thymeleaf:
+    cache: false
+  main:
+    allow-bean-definition-overriding: true
+server:
+  port: 9090
